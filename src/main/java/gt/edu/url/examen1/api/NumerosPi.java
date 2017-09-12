@@ -16,9 +16,7 @@ private double pi = 3.141516;
 	}
 	
 	
-	/*
-	 * Calculates PI with the specified quantity of decimals
-	 */
+
 	public double calcularPi(int cantidadDigitos) {
 		
 		double ecuacion = ( Math.pow(-1,cantidadDigitos)* factorial(6 * cantidadDigitos)*(13591409+(545140134*cantidadDigitos)))/(factorial(3*cantidadDigitos)*Math.pow(factorial(cantidadDigitos),3)*Math.pow(640320,((3*cantidadDigitos)+3/2)));
