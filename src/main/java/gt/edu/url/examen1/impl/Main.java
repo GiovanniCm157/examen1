@@ -2,6 +2,7 @@ package gt.edu.url.examen1.impl;
 import java.util.Scanner;
 
 import gt.edu.url.examen1.api.Jugadores_Tenis;
+import gt.edu.url.examen1.api.NumerosPi;
 
 /**
  *
@@ -16,14 +17,15 @@ public class Main {
         System.out.println("1.Pi");
         System.out.println("2.Tennis");
         System.out.println("3.Power Ranger");
-        System.out.println("4.Tennis");
         String opcion = "";
         opcion = sc.nextLine();
         switch(opcion) 
         {
         case"1":
         {
-        
+        	NumerosPi miCalculo = new NumerosPi();
+        	System.out.println("Numero es");
+    		System.out.println(miCalculo.calcularPi(0));
         	
         	break;
         }
